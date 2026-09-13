@@ -1,0 +1,12 @@
+# 好日製菓 HAORI — robots.txt
+# 注意：此為原型階段檔案。正式轉移到 WordPress + WooCommerce 後，
+# 請改用 Yoast SEO / Rank Math 等外掛自動產生的版本。
+
+User-agent: *
+Allow: /
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /*?add-to-cart=*
+
+Sitemap: https://haori.com.tw/sitemap.xml

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  好日製菓 HAORI — sitemap.xml
+  注意：此為原型階段檔案，網域為預留位置 (https://haori.com.tw)。
+  正式轉移到 WordPress + WooCommerce 後：
+  1. 改用 Yoast SEO / Rank Math 自動產生的 sitemap（會自動納入商品、分類頁）
+  2. 將下方網址換成正式網域
+  3. WooCommerce 上線後通常會拆出 /shop/、/product/xxx/、/cart/、/checkout/ 等頁面，
+     這些頁面除了商品頁需要收錄，cart/checkout/my-account 建議在 robots.txt 中排除。
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://haori.com.tw/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://haori.com.tw/#about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://haori.com.tw/#products</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://haori.com.tw/#gift</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://haori.com.tw/#faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>
